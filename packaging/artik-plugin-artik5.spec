@@ -2,7 +2,7 @@
 
 Name:		artik-plugin-artik5
 Summary:	ARTIK5 plugin files for fedora
-Version:	0.2
+Version:	1.0.0
 Release:	1
 Group:		System Environment/Base
 License:	none
