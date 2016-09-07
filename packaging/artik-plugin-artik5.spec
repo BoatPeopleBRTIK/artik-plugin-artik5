@@ -48,16 +48,6 @@ mkdir -p %{buildroot}/usr/bin
 cp -r prebuilt/adbd/* %{buildroot}/usr/bin
 cp -r prebuilt/rndis/* %{buildroot}/usr/bin
 
-%package network
-Summary:    network
-Group:		System
-
-%description network
-Network Driver and DHCP configuration
-
-%files network
-%attr(0644,root,root) /etc/modules-load.d/asix.conf
-
 %package bluetooth
 Summary:    bluetooth
 Group:		System
